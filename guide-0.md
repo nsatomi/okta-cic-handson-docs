@@ -16,14 +16,14 @@
     @Render('show-assertion')
     // @Header('Content-Type', 'application/xml')
     dummyACS(@Body() body: any) {
-          const xml = atob(body.SAMLResponse);
-      const parser = new XMLParser({});
-      const object = parser.parse(xml);
-      return {
+        const xml = atob(body.SAMLResponse);
+        const parser = new XMLParser({});
+        const object = parser.parse(xml);
+        return {
             login: object['saml2p:Response']['saml2:Assertion']['saml2:Subject']['saml2:NameID'],
-        assertion: new XmlBeautify({parser: DOMParser}).beautify(xml)
-        // ...object
-      }
+            assertion: new XmlBeautify({parser: DOMParser}).beautify(xml)
+            // ...object
+        }
     }
     ```
 
