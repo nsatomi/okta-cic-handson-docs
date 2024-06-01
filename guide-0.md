@@ -2,12 +2,20 @@
 
 ここでは [demo.okta](https://demo.okta.com) に CIC のテナントを作成します。
 
-1. [demo.okta](https://demo.okta.com) にアクセスする
-1. パートナーアカウントでログインする
-![](pics/00-01.png)  
-アカウント作成時に設定した二要素認証を求められます。
+<ol>
+<li>[demo.okta](https://demo.okta.com) にアクセスする</li>
 
-1. 以下のコードを作成します
+<li>パートナーアカウントでログインする
+
+![](pics/00-01.png)  
+
+> [!NOTE]
+> アカウント作成時に設定した二要素認証を求められます。
+
+</li>
+
+<li>以下のコードを作成します
+
 ```javascript
   @Post('saml/acs/dummy')
   @Render('show-assertion')
@@ -23,3 +31,14 @@
     }
   }
 ```
+
+</li>
+<li>以下のようにコードを書き換えます
+
+```diff
+- @Post('saml/acs/dummy')
++ @Post('hogehoge')
++ @UseGuard(AuthGuard('jwt'))
+```
+</li>
+</ol>
