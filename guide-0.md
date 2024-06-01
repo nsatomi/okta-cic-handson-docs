@@ -5,12 +5,15 @@
 1. [demo.okta](https://demo.okta.com) にアクセスする
 
 1. パートナーアカウントでログインする
+
    ![](pics/00-01.png)  
+
    アカウント作成時に設定した二要素認証を求められます。
 > [!NOTE]
 > いい感じ？
 
 3. 以下のコードを作成します
+
     ```javascript
     @Post('saml/acs/dummy')
     @Render('show-assertion')
@@ -28,6 +31,7 @@
     ```
 
 1. 以下のようにコードを書き換えます
+
    ```diff
    - @Post('saml/acs/dummy')
    + @Post('hogehoge')
