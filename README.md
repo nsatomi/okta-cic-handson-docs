@@ -6,4 +6,5 @@
 * Okta CIC を技術的に学びたい方
 
 Okta CIC ダッシュボード
+
 ![Okta CIC Dashboard](pics/01-01.png)
