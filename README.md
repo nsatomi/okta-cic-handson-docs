@@ -20,5 +20,3 @@ Okta CIC ダッシュボード
 2. サンプルアプリと CIC の統合
 3. 
 4. hello
-
-![](../images/pics/00-00-00.png)
