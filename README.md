@@ -21,4 +21,4 @@ Okta CIC ダッシュボード
 3. 
 4. hello
 
-![](../images/pics/00-00-00.png)
+![](../images/pics/00-00-00.png?raw=true)
