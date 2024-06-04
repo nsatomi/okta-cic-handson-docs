@@ -1,24 +1,29 @@
 # Okta CIC ハンズオンガイド
 
-本ガイドでは **Okta CIC** の基本機能を実際にさわって学べる手順を提供します。前提条件は以下となります。
+本ガイドでは **Okta CIC (Customer Identity Cloud)** の基本機能を実際にさわって学べる手順を提供します。Okta パートナー様向けのガイドとなっておりますため、それ以外の方は進めることができませんこと、ご了承ください。
+
+## ゴール
+
+* React SPA への Okta CIC の組み込み方を学ぶ
+* Okta CIC の基本機能 (ユーザ管理、ソーシャルログイン、シングルサインオンなど) の設定方法を学ぶ
+* パートナー様向け Okta CIC 検証、デモ環境を入手する
+
+## 実施要件
+
+事前にお送りした事前準備資料に従い、下記環境の準備が完了していることを確認してください。
 
 * Okta パートナーアカウント
 * PC (Windows もしくは MacOS)
-* node.js
-* git
-
-Okta CIC ダッシュボード
-
-![Okta CIC Dashboard](pics/01-01.png)
+* Web ブラウザ (Chrome, Edge, FireFox の最新バージョン)
+* [Node.js](https://nodejs.org/) (v18 もしくは v20)
+* [git](https://www.git-scm.com/)
 
 ## アジェンダ
 
 本ハンズオンでは以下の項目をカバーします。
 
-0. [CIC テナントの作成](./guide-0.md)
+1. [Okta CIC テナントの作成](./docs/guide-1-1.md)
 1. SPA サンプルアプリのデプロイ
-2. サンプルアプリと CIC の統合
-3. 
-4. hello
+1. サンプルアプリと CIC の統合
 
-![](../images/pics/00-00-00.png?raw=true)
+[ハンズオンを開始する](./docs/guide-1-1.md)
