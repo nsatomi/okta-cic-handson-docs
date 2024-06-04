@@ -17,6 +17,7 @@
 * Web ブラウザ (Chrome, Edge, FireFox の最新バージョン)
 * [Node.js](https://nodejs.org/) (v18 もしくは v20)
 * [git](https://www.git-scm.com/)
+* [Visual Studio Code](https://azure.microsoft.com/ja-jp/products/visual-studio-code) 等の任意のテキストエディタ
 
 ## アジェンダ
 
