@@ -15,7 +15,7 @@
 * Okta パートナーアカウント
 * PC (Windows もしくは MacOS)
 * Web ブラウザ (Chrome, Edge, FireFox の最新バージョン)
-* [Node.js](https://nodejs.org/) (v18 もしくは v20)
+* [Node.js](https://nodejs.org/){:target="_blank"} (v18 もしくは v20)
 * [git](https://www.git-scm.com/)
 
 ## アジェンダ
