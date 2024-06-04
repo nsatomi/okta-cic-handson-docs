@@ -1,4 +1,4 @@
-# 0. CIC テナントの作成
+# 1. CIC テナントの作成
 
 ここでは [demo.okta](https://demo.okta.com) に CIC のテナントを作成します。
 
