@@ -14,6 +14,19 @@
 
     <img src="../pics/cic-handson-1-2.jpg?raw=true" style="max-height: 400px;" />
 
+1. **`New Demo` をクリック**
+
+    <img src="../pics/cic-handson-1-3.jpg?raw=true" style="max-height: 400px;" />
+
+1. **テナントの情報を入力し、`Create` をクリック**
+
+    * Purpose: `Personal Enablement / Accreditation` を選択
+    * Label: demo.okta での表記名 (分かりやすい任意の名前) を入力
+    * Identity Provider Platform: `Customer Identity Cloud` を選択
+    * Identity Provider Name: 任意のテナント名を入力 (テナント URL に影響)
+
+    <img src="../pics/cic-handson-1-4.jpg?raw=true" style="max-height: 400px;" />
+
 1. **以下のコードを作成します**
 
     ```javascript
