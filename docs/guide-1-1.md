@@ -66,7 +66,7 @@
     }
     ```
 
-    <pre><code class="language-diff">
+    <pre><code class="language-html">
     @@ -1,8 +1,7 @@
     const App = props => {
     +
