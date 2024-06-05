@@ -57,8 +57,24 @@
 
     ```javascript
     const App = props => {
+
+        const [value, setValue] = useState(0);
+
         return (
-            <p>This is a pen</p>
-        )
+            <h1>現在の値は {value} です</h1>
+        );
+    }
+    ```
+
+    ```diff
+    const App = props => {
+    +
+    +   const [value, setValue] = useState(0);
+    +
+        return (
+    -       <p>This is a pen</p>
+    -   )
+    +       <h1>現在の値は {value} です</h1>
+    +   );
     }
     ```
