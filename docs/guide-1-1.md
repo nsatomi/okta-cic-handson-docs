@@ -8,9 +8,9 @@
 
     <img src="../pics/cic-handson-1-1.jpg?raw=true" style="max-height: 200px;" />
 
-    事前準備で作成したパートナーアカウントのメールアドレスでログインしてください。なお、アカウント作成時に設定した二要素認証を求められます。
+    > 事前準備で作成したパートナーアカウントのメールアドレスでログインしてください。なお、アカウント作成時に設定した二要素認証を求められます。
 
-1. **`Demo Builder` をクリック**
+1. **demo.okta ログイン後 `Demo Builder` をクリック**
 
     <img src="../pics/cic-handson-1-2.jpg?raw=true" style="max-height: 400px;" />
 
@@ -31,7 +31,7 @@
 
     <img src="../pics/cic-handson-1-5.jpg?raw=true" style="max-height: 200px;" />
 
-1. **`CONTINUE TO AUTH0` をクリック
+1. **`CONTINUE TO AUTH0` をクリック**
 
     <img src="../pics/cic-handson-1-6.jpg?raw=true" style="max-height: 200px;" />
 
