@@ -6,7 +6,7 @@
 
 1. **パートナーアカウントでログインする**
 
-   ![1-1](../pics/cic-handson.jpg?raw=true)  
+   ![1-1](../pics/cic-handson-1-1.jpg?raw=true)  
 
    アカウント作成時に設定した二要素認証を求められます。
 
