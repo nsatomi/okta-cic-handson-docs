@@ -2,15 +2,15 @@
 
 ここでは [demo.okta](https://demo.okta.com) に CIC のテナントを作成します。
 
-1. **[demo.okta](https://demo.okta.com) にアクセス**
+1. [demo.okta](https://demo.okta.com) にアクセス
 
-1. **`Okta Partners で続ける` をクリック**
+1. `Okta Partners で続ける` をクリック
 
     <img src="../pics/cic-handson-1-1.jpg?raw=true" style="max-height: 200px;" />
 
     > 事前準備で作成したパートナーアカウントのメールアドレスでログインしてください。なお、アカウント作成時に設定した二要素認証を求められます。
 
-1. **demo.okta ログイン後 `Demo Builder` をクリック**
+1. demo.okta ログイン後 `Demo Builder` をクリック
 
     <img src="../pics/cic-handson-1-2.jpg?raw=true" style="max-height: 400px;" />
 
