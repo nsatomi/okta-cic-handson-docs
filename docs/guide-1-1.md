@@ -6,13 +6,13 @@
 
 1. **`Okta Partners で続ける` をクリック**
 
-    ![1-1](../pics/cic-handson-1-1.jpg?raw=true)  
+    <img src="../pics/cic-handson-1-1.jpg?raw=true" width=600 height="450" style="width: auto; max-height: 100%;" />
 
     事前準備で作成したパートナーアカウントのメールアドレスでログインしてください。なお、アカウント作成時に設定した二要素認証を求められます。
 
 1. **`Demo Builder` をクリック**
 
-    ![1-2](../pics/cic-handson-1-2.jpg?raw=true)
+    <img src="../pics/cic-handson-1-2.jpg?raw=true" width=600 height="450" style="width: auto; max-height: 100%;" />
 
 1. **以下のコードを作成します**
 
