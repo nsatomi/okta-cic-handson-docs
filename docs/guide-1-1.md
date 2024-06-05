@@ -6,7 +6,7 @@
 
 1. **`Okta Partners で続ける` をクリック**
 
-    <img src="../pics/cic-handson-1-1.jpg?raw=true" style="max-height: 400px;" />
+    <img src="../pics/cic-handson-1-1.jpg?raw=true" style="max-height: 200px;" />
 
     事前準備で作成したパートナーアカウントのメールアドレスでログインしてください。なお、アカウント作成時に設定した二要素認証を求められます。
 
@@ -16,7 +16,7 @@
 
 1. **`New Demo` をクリック**
 
-    <img src="../pics/cic-handson-1-3.jpg?raw=true" style="max-height: 400px;" />
+    <img src="../pics/cic-handson-1-3.jpg?raw=true" style="max-height: 200px;" />
 
 1. **テナントの情報を入力し、`Create` をクリック**
 
@@ -26,6 +26,10 @@
     * Identity Provider Name: 任意のテナント名を入力 (テナント URL に影響)
 
     <img src="../pics/cic-handson-1-4.jpg?raw=true" style="max-height: 400px;" />
+
+1. **ステータスが `Active` になったことを確認し、`Accept Invitation` をクリック**
+
+    <img src="../pics/cic-handson-1-4.jpg?raw=true" style="max-height: 200px;" />
 
 1. **以下のコードを作成します**
 
