@@ -66,7 +66,7 @@
     }
     ```
 
-    ```diff
+    <pre><code class="language-diff">
     const App = props => {
     +
     +   const [value, setValue] = useState(0);
@@ -77,4 +77,4 @@
     +       <h1>現在の値は {value} です</h1>
     +   );
     }
-    ```
+    </code></pre>
