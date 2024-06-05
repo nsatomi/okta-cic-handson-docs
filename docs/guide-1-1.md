@@ -29,30 +29,23 @@
 
 1. **ステータスが `Active` になったことを確認し、`Accept Invitation` をクリック**
 
-    <img src="../pics/cic-handson-1-4.jpg?raw=true" style="max-height: 200px;" />
+    <img src="../pics/cic-handson-1-5.jpg?raw=true" style="max-height: 200px;" />
 
-1. **以下のコードを作成します**
+1. **`CONTINUE TO AUTH0` をクリック
 
-    ```javascript
-    @Post('saml/acs/dummy')
-    @Render('show-assertion')
-    // @Header('Content-Type', 'application/xml')
-    dummyACS(@Body() body: any) {
-        const xml = atob(body.SAMLResponse);
-        const parser = new XMLParser({});
-        const object = parser.parse(xml);
-        return {
-            login: object['saml2p:Response']['saml2:Assertion']['saml2:Subject']['saml2:NameID'],
-            assertion: new XmlBeautify({parser: DOMParser}).beautify(xml)
-            // ...object
-        }
-    }
-    ```
+    <img src="../pics/cic-handson-1-6.jpg?raw=true" style="max-height: 200px;" />
 
-1. **以下のようにコードを書き換えます**
+1. **`demo.okta SSO で続ける` をクリック**
+   
+    <img src="../pics/cic-handson-1-7.jpg?raw=true" style="max-height: 200px;" />
 
-   ```diff
-   - @Post('saml/acs/dummy')
-   + @Post('hogehoge')
-   + @UseGuard(AuthGuard('jwt'))
-   ```
+1. **`ACCEPT` をクリック**
+
+    <img src="../pics/cic-handson-1-8.jpg?raw=true" style="max-height: 200px;" />
+
+1. **CIC 管理ダッシュボードが表示される**
+
+    <img src="../pics/cic-handson-1-9.jpg?raw=true" style="max-height: 400px;" />
+
+> [!TIP]
+> ダッシュボードの URL は、`https://manage.cic-demo-platform.auth0app.com/dashboard/pi/<テナント名>/` になります
