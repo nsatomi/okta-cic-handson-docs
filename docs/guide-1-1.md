@@ -67,6 +67,7 @@
     ```
 
     <pre><code class="language-diff">
+    @@ -1,8 +1,7 @@
     const App = props => {
     +
     +   const [value, setValue] = useState(0);
