@@ -8,7 +8,7 @@
 
     <img src="../pics/cic-handson-1-9.jpg?raw=true" style="max-height: 400px;" />
 
-    > 最ログインを求められた場合は、`パートナーアカウント` でログインします
+    > 再ログインを求められた場合は、`パートナーアカウント` でログインします
 
 1. **アプリケーションメニューを開く**
 
@@ -22,4 +22,13 @@
 
 1. **アプリケーション名、種別を設定**
 
+    * **Name**: アプリケーション名を任意に入力します (例: `React SPA Primary` )
+    * **application type**: 本セッションでは `Single Page Web Applications` を設定します
+
     <img src="../pics/cic-handson-2-4.jpg?raw=true" style="max-height: 300px;" />
+
+    設定後、`Create` ボタンをクリックします。
+
+1. **`Settings` タブをクリック**
+
+    <img src="../pics/cic-handson-2-5.jpg?raw=true" style="max-height: 200px;" />
