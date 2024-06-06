@@ -31,4 +31,4 @@
 
 1. **`Settings` タブをクリック**
 
-    <img src="../pics/cic-handson-2-5.jpg?raw=true" style="max-height: 200px; border: solid;" />
+    <img src="../pics/cic-handson-2-5.jpg?raw=true" style="max-height: 200px; border: solid gray;" />
