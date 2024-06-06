@@ -66,7 +66,7 @@
     }
     ```
 
-    ```diff javascript
+    ```diff
 const App = props => {
 +
 +   const [value, setValue] = useState(0);
