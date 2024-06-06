@@ -1,0 +1,10 @@
+@import "{{ site.theme }}";
+
+img {
+    border: 1px solid gray;
+}
+
+ol li {
+    border-left: 1px solid #D3E173;
+    border-bottom: 1px solid #D3E173;
+}
