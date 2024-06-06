@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: Okta CIC ハンズオンガイド
 description: React SPA を使った基礎機能学習ワークショップ
+highlighter: none
