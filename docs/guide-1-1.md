@@ -55,7 +55,7 @@
     title: ハンズオンガイド
     ```
 
-    ```javascript
+    ```
     const App = props => {
 
         const [value, setValue] = useState(0);
