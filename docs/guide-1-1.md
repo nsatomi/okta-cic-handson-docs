@@ -47,23 +47,5 @@
 
     <img src="../pics/cic-handson-1-9.jpg?raw=true" style="max-height: 400px;" />
 
-    > ダッシュボードの URL は、`https://manage.cic-demo-platform.auth0app.com/dashboard/pi/<テナント名>/` になります
-
-1. **コード表記**
-
-    ```
-    title: ハンズオンガイド
-    ```
-
-    ```javascript
-    const App = props => {
-
-        // 状態変数 value を定義
-        // これをしないと値の更新ができない
-        const [value, setValue] = useState(0);
-
-        return (
-            <h1>現在の値は {value} です</h1>
-        );
-    }
-    ```
+    > ダッシュボードの URL は、  
+    > `https://manage.cic-demo-platform.auth0app.com/dashboard/pi/<テナント名>/` になります
