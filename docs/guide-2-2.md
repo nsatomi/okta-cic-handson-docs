@@ -32,3 +32,12 @@
 1. **`Settings` タブをクリック**
 
     <img src="../pics/cic-handson-2-5.jpg?raw=true" style="max-height: 200px;" />
+
+1. **`Client ID`を記録**
+
+    サンプルアプリケーションとの連携時に `Client ID` が必要になりますので、任意の場所にコピーしておきます。
+
+    <img src="../pics/cic-handson-2-6.jpg?raw=true" style="max-height: 200px;" />
+
+1. **各種 `許可 URI` を設定する
+
