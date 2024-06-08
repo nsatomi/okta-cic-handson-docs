@@ -70,6 +70,8 @@
 + console.log('hajimari');
 ```
 
+1. javascript テスト
+
     ```javascript
     ReactDOM.createRoot(document.getElementById('root')).render(
       <React.StrictMode>
