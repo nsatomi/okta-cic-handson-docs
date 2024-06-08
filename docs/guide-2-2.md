@@ -62,3 +62,23 @@
     - console.log('ochimai');
     + console.log('hajimari');
     ```
+
+    ```javascript
+    ReactDOM.createRoot(document.getElementById('root')).render(
+      <React.StrictMode>
+        <Auth0Provider
+          domain='https://gray-mule-75111.cic-demo-platform.auth0app.com'
+          clientId='mdAoAoHT9Hjo0HGq2MkbIeIKZazvog1B'
+          useRefreshTokens
+          useRefreshTokensFallback
+          authorizationParams={{
+            redirect_uri: window.location.origin,
+            audience: 'http://localhost:8202',
+            scope: 'openid profile email offline_access'
+          }}
+        >
+          <RouterProvider router={router} />
+        </Auth0Provider>
+      </React.StrictMode>,
+    )
+    ```
