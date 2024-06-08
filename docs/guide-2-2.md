@@ -53,3 +53,12 @@
     <img src="../assets/images/cic-handson-2-7.jpg?raw=true" style="max-height: 400px;" />
 
     最後に画面下部の `Save Changes` をクリックして、設定を保存します。
+
+1. diff テスト
+
+    ```diff
+    + import { useAuth0 } from '@auth0/auth0-react';
+      unko
+    - console.log('ochimai');
+    + console.log('hajimari');
+    ```
