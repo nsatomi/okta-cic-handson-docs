@@ -41,3 +41,15 @@
 
 1. **各種 `許可 URI` を設定する**
 
+    Okta CIC でのログイン、ログアウト実行後に戻り先のページとして許可するアプリケーションの URL を設定します。本ハンズオンのサンプルアプリケーションでは `http://localhost:8201` のみを利用します。
+
+    * `Allowed Callback URLs`: http://localhost:8201
+      * ログイン完了後に戻るページの URL
+    * `Allowed Logout URLs`: http://localhost:8201
+      * ログアウト完了後に戻るページの URL
+    * `Allowed Web Origins`: http://localhost:8201
+      * [Silent Authentication](https://auth0.com/docs/authenticate/login/configure-silent-authentication) の実行に必要な Okta CIC へのアクセスを許可する URL
+
+    <img src="../assets/images/cic-handson-2-7.jpg?raw=true" style="max-height: 300px;" />
+
+    最後に画面下部の `Save Changes` をクリックして、設定を保存します。
