@@ -39,5 +39,5 @@
 
     <img src="../pics/cic-handson-2-6.jpg?raw=true" style="max-height: 200px;" />
 
-1. **各種 `許可 URI` を設定する
+1. **各種 `許可 URI` を設定する**
 

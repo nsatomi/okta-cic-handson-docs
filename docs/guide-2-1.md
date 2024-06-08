@@ -4,9 +4,11 @@
 
 1. **アプリケーションのダウンロード**
 
-    ターミナルから任意のディレクトリに移動し、`git clone` コマンドを使って、アプリケーションをダウンロードします。
+    ターミナルから任意のディレクトリに移動し、`cic-handson` ディレクトリを作成します。続いて `git clone` コマンドを使って、アプリケーションをダウンロードします。
 
     ```bash
+    > mkdir cic-handson
+    > cd cic-handson
     > git clone https://github.com/nsatomi/okta-cic-handson-react-primary.git
     > cd okta-cic-handson-react-primary
     ```
