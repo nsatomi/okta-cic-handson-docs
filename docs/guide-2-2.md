@@ -63,6 +63,13 @@
     + console.log('hajimari');
     ```
 
+```diff
++ import { useAuth0 } from '@auth0/auth0-react';
+  unko
+- console.log('ochimai');
++ console.log('hajimari');
+```
+
     ```javascript
     ReactDOM.createRoot(document.getElementById('root')).render(
       <React.StrictMode>
