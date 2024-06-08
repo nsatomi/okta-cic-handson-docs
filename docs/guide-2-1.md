@@ -35,7 +35,7 @@
 
     ブラウザで `http://localhost:8201` にアクセスします。下記の画面が表示されれば成功です。
 
-    <img src="../pics/cic-handson-2-1.jpg?raw=true" style="max-height: 200px;" />
+    <img src="../assets/images/cic-handson-2-1.jpg?raw=true" style="max-height: 200px;" />
 
 1. **アプリケーションの動作確認**
 

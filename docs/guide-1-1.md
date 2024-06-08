@@ -6,17 +6,17 @@
 
 1. **`Okta Partners で続ける` をクリック**
 
-    <img src="../pics/cic-handson-1-1.jpg?raw=true" style="max-height: 200px;" />
+    <img src="../assets/images/cic-handson-1-1.jpg?raw=true" style="max-height: 200px;" />
 
     > 事前準備で作成したパートナーアカウントのメールアドレスでログインしてください。なお、アカウント作成時に設定した二要素認証を求められます。
 
 1. **demo.okta ログイン後 `Demo Builder` をクリック**
 
-    <img src="../pics/cic-handson-1-2.jpg?raw=true" style="max-height: 400px;" />
+    <img src="../assets/images/cic-handson-1-2.jpg?raw=true" style="max-height: 400px;" />
 
 1. **`New Demo` をクリック**
 
-    <img src="../pics/cic-handson-1-3.jpg?raw=true" style="max-height: 200px;" />
+    <img src="../assets/images/cic-handson-1-3.jpg?raw=true" style="max-height: 200px;" />
 
 1. **テナントの情報を入力し、`Create` をクリック**
 
@@ -25,23 +25,23 @@
     * **Identity Provider Platform**: `Customer Identity Cloud` を選択
     * **Identity Provider Name**: 任意のテナント名を入力 (テナント URL に影響)
 
-    <img src="../pics/cic-handson-1-4.jpg?raw=true" style="max-height: 400px;" />
+    <img src="../assets/images/cic-handson-1-4.jpg?raw=true" style="max-height: 400px;" />
 
 1. **ステータスが `Active` になったことを確認し、`Accept Invitation` をクリック**
 
-    <img src="../pics/cic-handson-1-5.jpg?raw=true" style="max-height: 200px;" />
+    <img src="../assets/images/cic-handson-1-5.jpg?raw=true" style="max-height: 200px;" />
 
 1. **`CONTINUE TO AUTH0` をクリック**
 
-    <img src="../pics/cic-handson-1-6.jpg?raw=true" style="max-height: 200px;" />
+    <img src="../assets/images/cic-handson-1-6.jpg?raw=true" style="max-height: 200px;" />
 
 1. **`demo.okta SSO で続ける` をクリック**
    
-    <img src="../pics/cic-handson-1-7.jpg?raw=true" style="max-height: 200px;" />
+    <img src="../assets/images/cic-handson-1-7.jpg?raw=true" style="max-height: 200px;" />
 
 1. **`ACCEPT` をクリック**
 
-    <img src="../pics/cic-handson-1-8.jpg?raw=true" style="max-height: 200px;" />
+    <img src="../assets/images/cic-handson-1-8.jpg?raw=true" style="max-height: 200px;" />
 
 1. **CIC 管理ダッシュボードが表示される**
 

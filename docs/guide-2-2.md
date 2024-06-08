@@ -6,7 +6,7 @@
 
     `https://manage.cic-demo-platform.auth0app.com/dashboard/pi/<テナント名>/` にアクセスします。
 
-    <img src="../pics/cic-handson-1-9.jpg?raw=true" style="max-height: 400px;" />
+    <img src="../assets/images/cic-handson-1-9.jpg?raw=true" style="max-height: 400px;" />
 
     > 再ログインを求められた場合は、`パートナーアカウント` でログインします
 
@@ -14,30 +14,30 @@
 
     サイドバーから `Applications` -> `Applications` を開きます。
 
-    <img src="../pics/cic-handson-2-2.jpg?raw=true" style="max-height: 200px;" />
+    <img src="../assets/images/cic-handson-2-2.jpg?raw=true" style="max-height: 200px;" />
 
 1. **`Create Application` をクリック**
 
-    <img src="../pics/cic-handson-2-3.jpg?raw=true" style="max-height: 200px;" />
+    <img src="../assets/images/cic-handson-2-3.jpg?raw=true" style="max-height: 200px;" />
 
 1. **アプリケーション名、種別を設定**
 
     * **Name**: アプリケーション名を任意に入力します (例: `React SPA Primary` )
     * **application type**: 本セッションでは `Single Page Web Applications` を設定します
 
-    <img src="../pics/cic-handson-2-4.jpg?raw=true" style="max-height: 300px;" />
+    <img src="../assets/images/cic-handson-2-4.jpg?raw=true" style="max-height: 300px;" />
 
     設定後、`Create` ボタンをクリックします。
 
 1. **`Settings` タブをクリック**
 
-    <img src="../pics/cic-handson-2-5.jpg?raw=true" style="max-height: 200px;" />
+    <img src="../assets/images/cic-handson-2-5.jpg?raw=true" style="max-height: 200px;" />
 
 1. **`Client ID`を記録**
 
     サンプルアプリケーションとの連携時に `Client ID` が必要になりますので、任意の場所にコピーしておきます。
 
-    <img src="../pics/cic-handson-2-6.jpg?raw=true" style="max-height: 200px;" />
+    <img src="../assets/images/cic-handson-2-6.jpg?raw=true" style="max-height: 200px;" />
 
 1. **各種 `許可 URI` を設定する**
 
