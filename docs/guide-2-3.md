@@ -27,7 +27,7 @@
     [変更差分](../assets/diff/2-3-3.html)
 
     <details>
-    <summary>完成コード</summary><div>
+    <summary>完成コード</summary>
 
     ```javascript
     import React from 'react'
@@ -63,4 +63,5 @@
       </React.StrictMode>,
     )
     ```
-    </div></details>
+
+    </details>
