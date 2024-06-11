@@ -53,3 +53,7 @@
     <img src="../assets/images/cic-handson-2-7.jpg?raw=true" style="max-height: 400px;" />
 
     最後に画面下部の `Save Changes` をクリックして、設定を保存します。
+
+以上で Okta CIC への React サンプルアプリケーションの登録は完了です。次の項ではアプリケーションに SDK を組み込み、Okta CIC と連携できるようにします。
+
+<a href="./guide-2-3.md" class="btn">次へ</a>
