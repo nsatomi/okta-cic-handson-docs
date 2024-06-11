@@ -45,7 +45,7 @@
 
 1. **CIC 管理ダッシュボードが表示される**
 
-    <img src="../pics/cic-handson-1-9.jpg?raw=true" style="max-height: 400px;" />
+    <img src="../assets/images/cic-handson-1-9.jpg?raw=true" style="max-height: 400px;" />
 
     > ダッシュボードの URL は、  
     > `https://manage.cic-demo-platform.auth0app.com/dashboard/pi/<テナント名>/` になります
