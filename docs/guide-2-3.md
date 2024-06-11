@@ -83,7 +83,7 @@
 
     `ログアウト` ボタンをクリックして、ログアウトを確認します。
 
-    <img src="../assets/images/cic-handson-2-12.jpg?raw=true" style="max-height: 300px;" />
+    <img src="../assets/images/cic-handson-2-12.jpg?raw=true" style="max-height: 200px;" />
 
     この処理も一見何の変化も見えませんが、Okta CIC からはログアウトが完了しています。試しに再度 `ログイン` ボタンをクリックした際に認証を求められることを確認します。
 
@@ -96,3 +96,7 @@
     `Auth.jsx` を開いて、以下のように編集します。
 
     [変更差分を開く](../assets/diff/2-3-10.html)
+
+    サンプルアプリを開き、現在の認証ステータスに応じてどちらかのボタンだけが表示されていることを確認します。また、ログイン、ログアウトを実行し、ボタンが変化することを確認します。
+
+    <img src="../assets/images/cic-handson-2-13.jpg?raw=true" style="max-height: 200px;" />
