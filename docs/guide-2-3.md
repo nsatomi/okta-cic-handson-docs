@@ -20,48 +20,25 @@
 
 1. **`Auth0Provider` をルートコンポーネントに登録**
 
-    CIC は `Auth0Provider` という React コンテキスト機能を提供しています。これをルートコンポーネント (一般的には <App>) に登録することにより、ルート配下のコンポーネントから認証情報を呼び出すことができるようになります。
+    CIC は `Auth0Provider` という React コンテキスト機能を提供しています。これをルートコンポーネント (一般的には `<App>`) に登録することにより、ルート配下のコンポーネントから認証情報を呼び出すことができるようになります。
+
+    > 本サンプルアプリでは `RouterProvider` が既に `<App>` に登録されているため、それを囲うように登録しています
 
     `main.jsx` を開いて、以下のように編集します。
 
-    [変更差分](../assets/diff/2-3-3.html)
+    [変更差分を開く](../assets/diff/2-3-3.html)
 
-    <details>
-    <summary>完成コード</summary>
+    パラメータは以下を指定します。
+    * **domain** : https://<テナント名>.cic-demo-platform.auth0app.com
+    * **clientId** : `2-2-6` 節で取得した `Client ID`
+    * **authorizationParams.redirect_uri** : 認証後に戻される URL (今回は呼び出し元のオリジン `http://localhost:8201` )
 
-    ```javascript
-    import React from 'react'
-    import ReactDOM from 'react-dom/client'
-    import App from './App.jsx'
-    import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-    import Home from './routes/Home.jsx';
-    import Profile from './routes/Profile.jsx';
-    import { Auth0Provider } from '@auth0/auth0-react';
+    > CIC ドメインと管理ダッシュボードの URL とは異なることにご注意ください
 
-    const router = createBrowserRouter([
-      {
-        path: '/',
-        element: <App />,
-        children: [
-          { index: true, element: <Home /> },
-          { path: 'profile', element: <Profile /> }
-        ]
-      },
-    ]);
+1. **ログイン、ログアウト処理を実装**
 
-    ReactDOM.createRoot(document.getElementById('root')).render(
-      <React.StrictMode>
-        <Auth0Provider
-          domain='https://<テナント名>.cic-demo-platform.auth0app.com'
-          clientId='<クライアント ID>'
-          authorizationParams={{
-            redirect_uri: window.location.origin
-          }}
-        >
-          <RouterProvider router={router} />
-        </Auth0Provider>
-      </React.StrictMode>,
-    )
-    ```
+    `ログイン` 、`ログアウト` ボタンをクリックすると Okta CIC に連携するような実装を行います。各処理は `useAuth0` というカスタムフックが提供していますので、これをボタンをクリックした時に実行できるようにします。
 
-    </details>
+    `Auth.jsx` を開いて、以下のように編集します。
+
+    [変更差分を開く](../assets/diff/2-3-4.html)
