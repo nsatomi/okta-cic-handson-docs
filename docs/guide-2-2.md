@@ -56,4 +56,4 @@
 
 以上で Okta CIC への React サンプルアプリケーションの登録は完了です。次の項ではアプリケーションに SDK を組み込み、Okta CIC と連携できるようにします。
 
-<a href="./guide-2-3.md" class="btn">次へ</a>
+[次へ](../docs/guide-2-3.md)
