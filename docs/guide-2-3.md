@@ -114,3 +114,19 @@
     ソースコード更新後、サンプルアプリを開き、ログイン済みなことを確認してから `プロファイル` タブを開きます。ユーザ情報 (`nickname` など) が表示されていれば成功です。
 
     <img src="../assets/images/cic-handson-2-14.jpg?raw=true" style="max-height: 300px;" />
+
+1. **ID Tokenを表示**
+
+    Okta CIC での認証後、サンプルアプリは `ID Token` を取得しています。前項で表示した `user` プロパティも `ID Token` から抽出されたものです。ここでは `ID Token` をサンプルアプリに表示させます。
+
+    `ID Token` は `getIdTokenClaims` メソッドで取得できます。ログインに成功して `isAuthenticated` が `true` になった時に自動的に取得するようにします。
+
+    `Profile.jsx` を開いて、以下のように編集します。
+
+    [変更差分を開く](../assets/diff/2-3-12.html)
+
+    `プロファイル` タブを開き、以下のような画面が表示されていれば成功です。
+
+    <img src="../assets/images/cic-handson-2-15.jpg?raw=true" style="max-height: 300px;" />
+
+    `ID Token` には発行者情報 (`iss`) や有効期限 (`exp`) などの情報が記載されていることが分かります。
