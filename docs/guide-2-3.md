@@ -130,3 +130,5 @@
     <img src="../assets/images/cic-handson-2-15.jpg?raw=true" style="max-height: 300px;" />
 
     `ID Token` には発行者情報 (`iss`) や有効期限 (`exp`) などの情報が記載されていることが分かります。
+
+以上でサンプルアプリへの Okta CIC への組み込みは完了です。次章では認証の設定を行います。
